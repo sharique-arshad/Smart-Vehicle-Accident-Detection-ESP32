@@ -1,0 +1,7 @@
+WiFi.h
+BlynkSimpleEsp32.h
+Adafruit_GFX
+Adafruit_SSD1306
+TinyGPS++
+MPU6050
+Wire.h
