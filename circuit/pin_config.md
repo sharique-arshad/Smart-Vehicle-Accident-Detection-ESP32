@@ -1,0 +1,10 @@
+# Pin Configuration
+
+GPIO21 → SDA MPU6050 & OLED Shared  
+GPIO22 → SCL MPU6050 & OLED Shared 
+GPIO34 → SW420  
+GPIO16 → GPS TX  
+GPIO17 → GPS RX  
+GPIO25 → Buzzer  
+GPIO26 → LED  
+GPIO27 → Button  
