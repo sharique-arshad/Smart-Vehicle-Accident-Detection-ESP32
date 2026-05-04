@@ -97,7 +97,7 @@ This allows the system to operate independently even without IoT connectivity.
 
 ## 📸 Project Preview
 
-![Setup](images/setup.jpg)
+![Setup](images/setup.png)
 
 ## 👨‍💻 Author
 
