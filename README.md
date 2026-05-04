@@ -112,6 +112,11 @@ This allows the system to operate independently even without IoT connectivity.
 5. Open Serial Monitor (115200 baud)
 6. Monitor via OLED or Blynk app
 
+## 🧠 Key Learnings
+- Sensor fusion for reliability
+- Real-time embedded system design
+- IoT communication using Blynk   
+
 ## 👨‍💻 Author
 
 Mohammad Sharique Arshad
