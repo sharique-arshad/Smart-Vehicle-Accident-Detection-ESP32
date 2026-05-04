@@ -1,7 +1,8 @@
-# 🚨 # 🚨 Smart Helmet Accident Detection System
-An IoT-based real-time accident detection system using ESP32 and sensor fusion. (ESP32 + IoT)
 ![ESP32](https://img.shields.io/badge/ESP32-IoT-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
+# 🚨 # 🚨 Smart Helmet Accident Detection System
+An IoT-based real-time accident detection system using ESP32 and sensor fusion. (ESP32 + IoT)
+
 
 ## 📌 Overview
 
