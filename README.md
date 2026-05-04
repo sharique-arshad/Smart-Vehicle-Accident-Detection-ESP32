@@ -1,4 +1,7 @@
-# 🚨 Smart Helmet Accident Detection System (ESP32 + IoT)
+# 🚨 # 🚨 Smart Helmet Accident Detection System
+An IoT-based real-time accident detection system using ESP32 and sensor fusion. (ESP32 + IoT)
+![ESP32](https://img.shields.io/badge/ESP32-IoT-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 ## 📌 Overview
 
@@ -98,6 +101,15 @@ This allows the system to operate independently even without IoT connectivity.
 ## 📸 Project Preview
 
 ![Setup](image/setup.png)
+
+## ▶️ How to Run
+
+1. Install required libraries (see requirements.txt)
+2. Open `code/smart_helmet.ino` in Arduino IDE
+3. Enter your WiFi and Blynk credentials
+4. Upload to ESP32
+5. Open Serial Monitor (115200 baud)
+6. Monitor via OLED or Blynk app
 
 ## 👨‍💻 Author
 
