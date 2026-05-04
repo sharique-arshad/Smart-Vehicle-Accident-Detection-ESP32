@@ -9,6 +9,7 @@ This project is an IoT-based smart helmet system that detects accidents using se
 * 📊 Real-time motion monitoring (MPU6050)
 * 📉 Tilt angle detection (>60°)
 * 🔔 Vibration-based impact detection (SW420)
+* 🖥️ OLED Display (SSD1306) for real-time data visualization
 * 🚨 Smart accident detection logic (multi-condition)
 * 📱 IoT alert via Blynk (push notification)
 * 📍 Google Maps location sharing (GPS Neo-6M)
@@ -21,6 +22,7 @@ Accident is detected when:
 * High acceleration (>2.2g) + vibration
   OR
 * High tilt angle (>60°) + vibration
+* Displays real-time sensor data (AX, AY, Angle, Vibration, GPS status) on OLED
 
 This reduces false positives compared to single-sensor systems.
 
@@ -41,7 +43,18 @@ This reduces false positives compared to single-sensor systems.
 * Sends push notifications to mobile
 * Includes Google Maps link:
   https://maps.google.com/?q=lat,lon
+  
+## 🖥️ OLED Display Functionality
 
+The OLED display provides real-time feedback of system status:
+
+- AX, AY acceleration values  
+- Tilt angles (AngleX, AngleY)  
+- Vibration status  
+- GPS status (Searching / Coordinates)  
+- Accident alert + countdown timer  
+
+This allows the system to operate independently even without IoT connectivity.
 ## 🔧 Pin Configuration
 
 | Component   | ESP32 Pin |
@@ -54,6 +67,8 @@ This reduces false positives compared to single-sensor systems.
 | Buzzer      | GPIO25    |
 | LED         | GPIO26    |
 | Button      | GPIO27    |
+| OLED SDA    | GPIO21    |
+| OLED SCL    | GPIO22    |
 
 ## 🔄 System Flow
 
