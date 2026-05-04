@@ -95,6 +95,10 @@ This allows the system to operate independently even without IoT connectivity.
 * Battery-powered compact design
 * Enclosure for real-world deployment
 
+## 📸 Project Preview
+
+![Setup](images/setup.jpg)
+
 ## 👨‍💻 Author
 
 Mohammad Sharique Arshad
